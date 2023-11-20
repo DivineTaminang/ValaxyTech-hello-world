@@ -49,11 +49,10 @@ how do I correct it here ?  <project xmlns="http://maven.apache.org/POM/4.0.0" x
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
         <configuration>
-          <reportPlugins>
             <plugin>
               <artifactId>maven-checkstyle-plugin</artifactId>
             </plugin>
-
+             <reportPlugins>
             <plugin>
               <artifactId>maven-jxr-plugin</artifactId>
             </plugin>
