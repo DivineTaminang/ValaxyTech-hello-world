@@ -28,9 +28,9 @@
       <url>file:///tmp/maven-project-site</url>
     </site>
   </distributionManagement>
-
-  <build>
-   <reporting>
+  </build>
+  
+  <reporting>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
